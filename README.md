@@ -10,15 +10,13 @@ Collaboration between four agents in the hierarchical fashion:
 - Market Researcher: Monitors and reports back market trends.
 - Sentiment Analyst: Monitors customer sentiments and feedbacks.
 - Product Analyst: Track internal performance metrics
-- Research Manager: Aggregate insights and professionally put it into a report.
+- Research Manager: Delegates and controls the work of other three agents and then aggregate their insights to professionally put it into a report.
 
 ## Tech Stack
 
-**Language Model:** gpt-3.5-turbo
+**Language Model:** Ollama(Llama3.2)
 
 **Agentic Framework:** CrewAI
-
-**Docker/Docker Desktop**
 
 
 ## Installation
@@ -30,12 +28,13 @@ Install dependencies
 ```
 
 ## Usage
+Set your SERPER_API_KEY 
 
 ```bash
-  python main.py
+  python app.py
 ```
 
 ## Demo
 
-[Report](report.md)
+[Final Report](report.md)
 
